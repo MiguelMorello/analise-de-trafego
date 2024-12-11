@@ -11,8 +11,7 @@ import seaborn as sns
 # - 'path_length', 'body_length', 'badwords_count', etc.: métricas numéricas relacionadas ao conteúdo das requisições.
 
 # Carregar o arquivo
-file_path = '/mnt/data/2bad_reqff.csv'
-data = pd.read_csv(file_path)
+data = pd.read_csv('/content/sample_data/2bad_reqff.csv')
 
 # Configurar visualizações
 sns.set(style="whitegrid")
